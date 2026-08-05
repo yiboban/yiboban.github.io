@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">MyTransformer 七阶段学习路径</title>
+  <desc id="desc">从张量约定、BPE、基础层、RoPE、Attention、SwiGLU、Block 到语言模型的测试驱动学习路径</desc>
+  <rect width="1400" height="980" fill="#0b1020"/>
+  <g stroke="#1d2a49" stroke-width="1" opacity=".8">
+    <path d="M0 140h1400M0 280h1400M0 420h1400M0 560h1400M0 700h1400M0 840h1400"/>
+    <path d="M140 0v980M280 0v980M420 0v980M560 0v980M700 0v980M840 0v980M980 0v980M1120 0v980M1260 0v980"/>
+  </g>
+  <text x="90" y="92" fill="#8ea2ca" font-family="ui-monospace,monospace" font-size="21" letter-spacing="5">MYTRANSFORMER / A00-A07</text>
+  <text x="90" y="170" fill="#f4f6fb" font-family="system-ui,sans-serif" font-size="63" font-weight="650">Build it. Test it.</text>
+  <text x="90" y="235" fill="#7fa1ff" font-family="system-ui,sans-serif" font-size="63" font-weight="650">Understand it.</text>
+  <path d="M110 520H1285" stroke="#315bff" stroke-width="7" stroke-linecap="round"/>
+  <g font-family="ui-monospace,monospace" font-size="19" text-anchor="middle">
+    <g transform="translate(130 520)"><circle r="31" fill="#315bff"/><text y="7" fill="white">A00</text><text y="78" fill="#f4f6fb">TENSOR</text><text y="105" fill="#7e8ba6">CONTRACT</text></g>
+    <g transform="translate(292 520)"><circle r="31" fill="#315bff"/><text y="7" fill="white">A01</text><text y="78" fill="#f4f6fb">BPE</text><text y="105" fill="#7e8ba6">TOKENIZER</text></g>
+    <g transform="translate(454 520)"><circle r="31" fill="#315bff"/><text y="7" fill="white">A02</text><text y="78" fill="#f4f6fb">LAYERS</text><text y="105" fill="#7e8ba6">NUMERICS</text></g>
+    <g transform="translate(616 520)"><circle r="31" fill="#315bff"/><text y="7" fill="white">A03</text><text y="78" fill="#f4f6fb">ROPE</text><text y="105" fill="#7e8ba6">MASK</text></g>
+    <g transform="translate(778 520)"><circle r="31" fill="#79ffbe"/><text y="7" fill="#07150f">A04</text><text y="78" fill="#f4f6fb">ATTENTION</text><text y="105" fill="#7e8ba6">CAUSAL</text></g>
+    <g transform="translate(940 520)"><circle r="31" fill="#315bff"/><text y="7" fill="white">A05</text><text y="78" fill="#f4f6fb">SWIGLU</text><text y="105" fill="#7e8ba6">FFN</text></g>
+    <g transform="translate(1102 520)"><circle r="31" fill="#315bff"/><text y="7" fill="white">A06</text><text y="78" fill="#f4f6fb">BLOCK</text><text y="105" fill="#7e8ba6">PRE-NORM</text></g>
+    <g transform="translate(1264 520)"><circle r="31" fill="#315bff"/><text y="7" fill="white">A07</text><text y="78" fill="#f4f6fb">LM</text><text y="105" fill="#7e8ba6">DECODER</text></g>
+  </g>
+  <g transform="translate(90 760)">
+    <rect width="1220" height="124" rx="10" fill="#111b31" stroke="#2d416d"/>
+    <text x="38" y="43" fill="#79ffbe" font-family="ui-monospace,monospace" font-size="18">TEST CONTRACT</text>
+    <text x="38" y="82" fill="#bdc8df" font-family="ui-monospace,monospace" font-size="20">manual examples  ·  differential tests  ·  golden fixtures  ·  invariants</text>
+  </g>
+  <text x="90" y="934" fill="#63708a" font-family="ui-monospace,monospace" font-size="18">CORE TODOs ARE INTENTIONALLY PRESERVED · SCAFFOLD ≠ COMPLETED MODEL</text>
+</svg>
